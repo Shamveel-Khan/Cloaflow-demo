@@ -1,0 +1,62 @@
+{
+  "name": "cloaflow",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Cloaflow — open-source AI voice agent & AI receptionist: answers calls 24/7, books appointments, takes orders and speaks 8+ languages. Built with Claude, Twilio and Next.js.",
+  "keywords": [
+    "ai-receptionist",
+    "voice-agent",
+    "ai-voice-agent",
+    "answering-service",
+    "virtual-receptionist",
+    "appointment-booking",
+    "twilio-voice",
+    "claude",
+    "anthropic",
+    "conversational-ai",
+    "ivr-replacement",
+    "phone-bot",
+    "nextjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7XLabs/aiva.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test \"tests/*.test.ts\"",
+    "seed:demo": "tsx scripts/seed-demo.ts",
+    "discord": "tsx scripts/discord-bot.ts",
+    "eval": "tsx scripts/eval.ts",
+    "doctor": "tsx scripts/doctor.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.111.0",
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
+    "msedge-tts": "^2.0.9",
+    "next": "14.2.5",
+    "openai": "^4.86.0",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tweetnacl": "^1.0.3",
+    "twilio": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "tsx": "^4.23.1",
+    "typescript": "^5.4.5"
+  }
+}
